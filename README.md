@@ -52,4 +52,4 @@
    debe estar escrita en formato **parquet** y debe usarse el método `coalese(1)`
    para obtener solo un archivo por partición.
 
-¡Buena suerte!
+¡Buena suerte! 

@@ -15,7 +15,7 @@ abstract class Writer {
                 .write()
                 .partitionBy(teamPosition.getName())
                 .mode(Overwrite)
-                .parquet(OUTPUT_PATH);
+                .parquet(new ReadProperties().getOUTPUT_PATH());
     }
 
 }

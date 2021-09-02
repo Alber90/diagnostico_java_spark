@@ -23,7 +23,7 @@ public class Transformer extends Writer {
 		this.spark = spark;
 		Dataset<Row> df = readInput();
 
-		df = cleanData(df);
+		df = cleanData(df); 
 		df = exampleWindowFunction(df);
 		df = columnSelection(df);
 
